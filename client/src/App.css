@@ -1,0 +1,408 @@
+body {
+  background-color: #3E4A61;
+  font-family: "Ubuntu", "sans-serif";
+}
+
+.global-theme-button {
+  margin: 10px auto 20px;
+  color: #3E4A61;
+  background-color: #64C9CF;
+  border-color: #3E4A61;
+}
+
+.global-theme-button:hover {
+  background-color: #5D737E;
+  border-color: #3E4A61;
+}
+
+/* Navigation Bar */
+.custom-navbar {
+  background-color: #64C9CF; /* Darker shade for the navbar */
+  transition: 0.6s;
+}
+
+.custom-navbar.scrolled {
+  background-color: #a181d9; /* Lighter shade when scrolled */
+}
+
+.navbar-buttons {
+  color: #3E4A61;
+  background-color: #64C9CF;
+  border: #3E4A61 1px solid;
+  border-radius: 30px;
+}
+
+.navbar-buttons.scrolled {
+  background-color: #3E4A61;
+  color: #64C9CF;
+  border: none;
+}
+
+.navbar-buttons:hover {
+  background-color: #5D737E;
+  border-color: #3E4A61;
+}
+
+/* Header */
+.header {
+  min-height: 500px;
+  background-color: #3f2370;
+  color: #64C9CF;
+}
+
+.header-container {
+  padding: 3% 3% 5% 2%;
+}
+
+.header-text {
+  margin: auto 0px;
+  color: white;
+}
+
+.header-brand {
+  font-family: "Lalita One", cursive;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.header-image {
+  width: 80%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.header Button {
+  margin-top: 10px;
+  color: #3E4A61;
+  background-color: #64C9CF;
+  border-color: #3E4A61;
+}
+
+.header-motto{
+  font-family: "Lalita One", cursive;
+  font-size: 35px;
+}
+
+.header Button:hover {
+  background-color: #5D737E;
+  border-color: #3E4A61;
+}
+
+/* Features */
+.features {
+  text-align: center;
+  padding: 3% 10% 3%;
+}
+
+/* Testimonial */
+.testimonials {
+  text-align: center;
+  background-color: #9162e3;
+  padding: 3% 0 1%;
+}
+
+.carousel {
+  padding: 5% 15% 7%;
+  min-height: 200px;
+}
+
+.testimony {
+  text-align: center;
+}
+
+.testimony-review {
+  margin: 3% 0 50px 0;
+  font-style: italic;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.testimonial-submit-text {
+  margin-top: 12px;
+}
+
+.testimonial-form-link {
+  color: #3E4A61;
+}
+
+/* Contact Section */
+
+.contact-us-container {
+  background-color: #3E4A61;
+  min-height: 300px;
+  padding: 5%;
+}
+
+.contact-us-container Button {
+  margin-top: 10px;
+  color: #3E4A61;
+  background-color: #64C9CF;
+  border-color: #3E4A61;
+  margin-bottom: 20px;
+}
+
+.contact-us-container Button:hover {
+  background-color: #5D737E;
+  border-color: #3E4A61;
+}
+
+.contact-section {
+  background-color: #5f32ad;
+  min-height: 300px;
+  padding: 5%;
+  color: white;
+}
+.contact-section Button {
+  margin-top: 10px;
+  color: #64C9CF;
+  background-color: #5D737E;
+  border-color: #64C9CF;
+}
+
+.contact-section Button:hover {
+  background-color: #3E4A61;
+  border-color: #64C9CF;
+}
+
+.contact-section-text {
+  padding-top: 9%;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #5D737E;
+  min-height: 100px;
+  font-weight: 600;
+  text-align: center;
+  padding: 40px;
+  color: #64C9CF;
+}
+
+
+/* Dashboard */
+
+/* Not Found Page */
+.notfound-container {
+  text-align: center;
+}
+
+.notfound-container img {
+  width: 50%;
+}
+
+.notfound-container h3 {
+  margin: 20px auto 10px;
+}
+
+.notfound-container Button {
+  margin: 10px auto 20px;
+  color: black;
+  background-color: #f68989;
+  border-color: black;
+}
+
+.notfound-container Button:hover {
+  background-color: #c65d78;
+  border-color: black;
+}
+
+.page-header {
+  padding: 8px 8px 8px 8px;
+  /* border: 2px red solid; */
+}
+
+
+/* Player Component  */
+
+.player-container {
+  width: 100%;
+
+  padding: 1rem;
+  border: 1px solid #8d8d8d;
+  border-radius: 10px;
+  color: #dadada;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.player-container > * {
+  padding: 1rem 0;
+  color: #cacaca;
+}
+
+.player-container .title {
+  font-size: inherit;
+}
+
+.player-container .navigation {
+  width: 100%;
+}
+
+.player-container .navigation .navigation-wrapper {
+  min-width: 100%;
+  background-color: rgba(119, 119, 119, 0.781);
+  height: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.player-container .navigation .navigation-wrapper .seek-bar {
+  width: 0;
+  height: 100%;
+  background-color: #188003;
+  border-radius: 30px;
+}
+
+.player-container .controls {
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.player-container .controls .btn-action {
+  font-size: 2rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.player-container .controls .btn-action:hover {
+  color: white;
+}
+
+.player-container .controls .pp {
+  font-size: 4rem;
+}
+
+.audio-play-btn Button {
+  background-color: #f68989;
+  border-color: #874356;
+}
+
+.audio-play-btn Button:hover {
+  background-color: #c65d78;
+  border-color: black;
+}
+
+/* Write New Page */
+
+.write-new Button {
+  background-color: #f68989;
+  border-color: #874356;
+}
+
+.write-new Button:hover {
+  background-color: #c65d78;
+  border-color: black;
+}
+
+/* Public Journals */
+.post-card-view {
+  margin: 1% 5%;
+}
+
+.post-card-view:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.post-view-container {
+  padding: 2% 3%;
+}
+
+/*Uplift Page */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.uplift Button {
+  background-color: #f68989;
+  border-color: #874356;
+}
+
+.uplift Button:hover {
+  background-color: #c65d78;
+  border-color: black;
+}
+
+/* Quotes Component  */
+.quote-content {
+  font-family: "Rouge Script", cursive;
+}
+
+.quote-author {
+  font-family: "Rouge Script", cursive;
+}
+
+.journals-list-text {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journals-list-text p {
+  font-size: large;
+}
+/*Uplift Page */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.uplift Button {
+  background-color: #f68989;
+  border-color: #874356;
+}
+
+.uplift Button:hover {
+  background-color: #c65d78;
+  border-color: black;
+}
+
+/* Quotes Component  */
+.quote-content {
+  font-family: "Rouge Script", cursive;
+}
+
+.quote-author {
+  font-family: "Rouge Script", cursive;
+}
+
+/* Resources Page  */
+
+.resources .heading {
+  background-color: #f68989;
+  color: #dadada;
+  border-radius: 3px;
+}
+.helpline-links {
+  margin-top: 20px;
+}
+.resources Col {
+  border: 2px solid black;
+}
+.other-resources {
+  margin-left: 20px;
+}
+
+.emergency-call:hover {
+  opacity: 0.6;
+  box-shadow: 2px 4px 5px;
+}
+.resources-blogging:hover {
+  opacity: 0.6;
+  box-shadow: 2px 4px 5px;
+}
+.support-group:hover {
+  opacity: 0.6;
+  box-shadow: 2px 4px 5px;
+}
+.helpline-number {
+  color: darkslategrey;
+}
