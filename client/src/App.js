@@ -18,7 +18,8 @@ import axios from "axios";
 import Resources from "./pages/dashboard/Resources";
 import Insights from "./pages/dashboard/Insights";
 import Therapist from "./pages/dashboard/uplift/Therapist";
-import DashboardLayout from "./components/DashboardLayout";
+import QuizPage from "./pages/dashboard/QuizPage";
+import GamesPage from "./pages/dashboard/GamesPage";
 function App() {
   axios.defaults.baseURL = "http://localhost:5000/";
 
@@ -79,10 +80,26 @@ function App() {
             }
           />
           <Route
+            path="/dashboard/QuizPage"
+            element={
+              <ProtectedRoute>
+                <QuizPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
             path="/dashboard/insights"
             element={
               <ProtectedRoute>
                 <Insights />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/dashboard/games"
+            element={
+              <ProtectedRoute>
+                <GamesPage />
               </ProtectedRoute>
             }
           />

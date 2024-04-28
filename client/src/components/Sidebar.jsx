@@ -72,9 +72,9 @@ const Sidebar = ({
         </Menu>
       </SidebarHeader>
       <SidebarContent>
-        <Menu iconShape="circle"> 
+        <Menu iconShape="circle">
           <MenuItem icon={<FaGem />} style={getMenuItemStyle("/")}>
-            Home 
+            Home
             <NavLink to="/" />
           </MenuItem>
           <MenuItem icon={<FaTachometerAlt />} style={getMenuItemStyle("/dashboard/write-new")}>
@@ -82,12 +82,16 @@ const Sidebar = ({
             <NavLink to="/dashboard/write-new" />
           </MenuItem>
           <MenuItem icon={<FaGem />} style={getMenuItemStyle("/dashboard/private-journals")}>
-            Private Journals 
+            Private Journals
             <NavLink to="/dashboard/private-journals" />
           </MenuItem>
           <MenuItem icon={<FaGem />} style={getMenuItemStyle("/dashboard/public-journals")}>
-            Public Journals 
+            Public Journals
             <NavLink to="/dashboard/public-journals" />
+          </MenuItem>
+          <MenuItem icon={<FaGem />} style={getMenuItemStyle("/dashboard/QuizPage")}>
+            Quiz
+            <NavLink to="/dashboard/QuizPage" />
           </MenuItem>
           <MenuItem icon={<FaTachometerAlt />} style={getMenuItemStyle("/dashboard/insights")}>
             Insights
@@ -96,6 +100,10 @@ const Sidebar = ({
           <MenuItem icon={<FaTachometerAlt />} style={getMenuItemStyle("/dashboard/uplift")}>
             Uplift
             <NavLink to="/dashboard/uplift" />
+          </MenuItem>
+          <MenuItem icon={<FaGem />} style={getMenuItemStyle("/dashboard/GamesPage")}>
+            Games
+            <NavLink to="/dashboard/games" />
           </MenuItem>
           <MenuItem icon={<FaGem />} suffix={<span className="badge red">S.O.S.</span>} style={getMenuItemStyle("/dashboard/resources")}>
             Emergency

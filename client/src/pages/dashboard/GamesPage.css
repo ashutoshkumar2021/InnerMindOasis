@@ -1,0 +1,37 @@
+.img-responsive{
+    width: 100%; /* Adjust the width as per your requirement */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-bottom: 15px; 
+}
+.img-responsive:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+.card-container-lg {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container-lg h3 {
+    margin-top: 0;
+}
+
+.card-container-lg button {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card-container-lg a:hover {
+    background-color: #0056b3;
+}

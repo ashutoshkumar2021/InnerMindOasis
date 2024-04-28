@@ -1,7 +1,7 @@
 {
-  "name": "mood-journal",
+  "name": "InnerMindOasis",
   "version": "1.0.0",
-  "description": "A digital journal app with mood tracking.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "client-install": "cd client && npm install",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayush0402/mood-journal.git"
+    "url": ""
   },
-  "author": "Ayush Kumar",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ayush0402/mood-journal/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/ayush0402/mood-journal#readme",
+  "homepage": "",
   "dependencies": {
     "apos-to-lex-form": "^1.0.5",
     "body-parser": "^1.20.2",
