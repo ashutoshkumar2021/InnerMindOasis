@@ -11,7 +11,6 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
-<<<<<<< HEAD
     "type": "git",
     "url": ""
   },
@@ -21,12 +20,8 @@
     "url": ""
   },
   "homepage": "",
-=======
     "type": "git"
   },
-  "author": "Ashutosh kumar",
-  "license": "ISC",
->>>>>>> e15ccb0e9b9e9dbd75ccf08a5473d52f23d1c473
   "dependencies": {
     "apos-to-lex-form": "^1.0.5",
     "body-parser": "^1.20.2",
